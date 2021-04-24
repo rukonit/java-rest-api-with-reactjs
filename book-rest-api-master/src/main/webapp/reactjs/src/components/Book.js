@@ -125,7 +125,7 @@ export default class Book extends Component {
         })
         this.setState(this.initialState);
     }
-
+//added an comment
     render() {
         const {title, author, coverPhotoURL, isbnNumber, price, language} = this.state;
         return(
